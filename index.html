@@ -7,169 +7,129 @@
     <meta content='width=device-width, initial-scale=1.0' name='viewport'>
     <title>Welcome to Middleman</title>
     <link href="/stylesheets/style.css" rel="stylesheet" />
-    <script src="/javascripts/modernizr.js"></script>
   </head>
   <body class='index'>
-    <div class='row'>
-      <div class='large-12 columns'>
-        <h1>Please work lmao pt 2</h1>
-      </div>
+    <!-- / Small Navigation -->
+    <div class='title-bar' data-hide-for='medium' data-responsive-toggle='nav-menu'>
+      <a class='logo-small show-for-small-only' href='#'>
+        <img src='/images/swe-logo.png'>
+      </a>
+      <button class='menu-icon' data-toggle='' type='button'></button>
+      <div class='title-bar-title'>Menu</div>
     </div>
-    <div class='row'>
-      <div class='large-12 columns'>
-        <div class='callout large'>
-          <h3>We’re stoked you want to try Foundation!</h3>
-          <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-          <p>Once you've exhausted the fun in this document, you should check out:</p>
-          <div class='row'>
-            <div class='large-4 medium-4 columns'>
-              <a href='http://foundation.zurb.com/sites/docs/'>Foundation Documentation</a>
-              <p>Everything you need to know about using the framework.</p>
-            </div>
-            <div class='large-4 medium-4 columns'>
-              <a href='http://zurb.com/university/code-skills'>Foundation Code Skills</a>
-              <p>These online courses offer you a chance to better understand how Foundation works and how you can master it to create awesome projects.</p>
-            </div>
-            <div class='large-4 medium-4 columns'>
-              <a href='http://foundation.zurb.com/forum'>Foundation Forum</a>
-              <p>Join the Foundation community to ask a question or show off your knowlege.</p>
-            </div>
-          </div>
-          <div class='row'>
-            <div class='large-4 medium-4 medium-push-2 columns'>
-              <a href='http://github.com/zurb/foundation'>Foundation on Github</a>
-              <p>Latest code, issue reports, feature requests and more.</p>
-            </div>
-            <div class='large-4 medium-4 medium-pull-2 columns'>
-              <a href='https://twitter.com/ZURBfoundation'>@zurbfoundation</a>
-              <p>Ping us on Twitter if you have questions. When you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-            </div>
-          </div>
+    <!-- / Medium-Up Navigation -->
+    <nav class='top-bar' id='nav-menu'>
+      <div class='logo-wrapper hide-for-small-only'>
+        <div class='logo'>
+          <img src='/images/swe-logo.png'>
         </div>
       </div>
+      <div class='top-bar-left'>
+        <ul class='vertical medium-horizontal menu' data-responsive-menu='drilldown medium-dropdown'>
+          <li>
+            <a href='#'>Menu 1</a>
+          </li>
+          <li class='has-submenu'>
+            <a href='#'>Menu 2</a>
+            <ul class='submenu menu vertical medium-horizontal' data-submenu=''>
+              <li>
+                <a href='#'>First link in dropdown</a>
+              </li>
+            </ul>
+          </li>
+          <li class='has-submenu'>
+            <a href='#'>Menu 3</a>
+            <ul class='submenu menu vertical medium-horizontal' data-submenu=''>
+              <li>
+                <a href='#'>First link in dropdown</a>
+              </li>
+            </ul>
+          </li>
+          <li class='has-submenu'>
+            <a href='#'>Menu 4</a>
+            <ul class='submenu menu vertical medium-horizontal' data-submenu=''>
+              <li>
+                <a href='#'>First link in dropdown</a>
+              </li>
+            </ul>
+          </li>
+          <li class='has-submenu'>
+            <a href='#'>Menu 5</a>
+            <ul class='submenu menu vertical' data-submenu=''>
+              <li>
+                <a href='#'>First link in dropdown</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <img class='header' src='images/main-header.png'>
+    <div class='container row'>
+      <div class='large-12 columns'>
+        <div class='row'>
+          <div class='large-8 columns'>
+            <h2>Announcements</h2>
+            Rem eligendi repellat autem ipsa labore distinctio dolores illum dolores autem officiis aperiam debitis ad. deserunt blanditiis aspernatur nihil quod consequatur saepe officiis unde et libero aut praesentium. dicta voluptates vel quos unde a aut minus qui eos recusandae eos natus saepe. omnis ratione et vel et culpa. cupiditate minus architecto nisi. consectetur voluptatibus iusto omnis non aliquam accusantium odio reiciendis eaque et eaque. aliquam et rerum et aut
+          </div>
+          <div class='large-4 columns'>
+            <img src='http://placehold.it/200x200/6740ca/f03257&amp;text=cool+img'>
+          </div>
+        </div>
+        <div class='row'>
+          <div class='large-6 columns'>
+            <h2>Upcoming Events</h2>
+            <ul>
+              <li>Molestiae voluptatem consequuntur eaque sint non eum</li>
+              <li>Culpa hic corporis qui voluptatem cum itaque</li>
+              <li>Quo nisi nobis odio dicta id optio dolorum provident</li>
+              <li>Suscipit beatae quibusdam id quisquam quas omnis natus et cupiditate aperiam dolor itaque est</li>
+              <li>Dicta aut voluptates aut</li>
+            </ul>
+          </div>
+          <div class='large-6 columns'>
+            <h2>Join our mailing list!</h2>
+            <input placeholder='email' type='text'>
+            <button class='button'>Submit</button>
+          </div>
+        </div>
+        <div class='row'>
+          <div class='large-4 columns'>
+            <img src='http://placehold.it/200x200/0cdf48/489b06&amp;text=cool+img'>
+          </div>
+          <div class='large-8 columns'>
+            <h2>How to get involved:</h2>
+            Ut neque ducimus architecto occaecati et voluptatem veniam et neque incidunt. vel aut cumque tempora eos blanditiis officia facere quae. cupiditate dolores dolores nobis et autem est aut non molestiae cupiditate aspernatur esse hic dolorem
+          </div>
+        </div>
+      </div>
     </div>
-    <div class='row'>
-      <div class='large-8 medium-8 columns'>
-        <h5>Here’s your basic grid:</h5>
-        <!-- Grid Example -->
-        <div class='row'>
-          <div class='large-12 columns'>
-            <div class='callout'>
-              <p>
-                <strong>This is a twelve column section in a row.</strong>
-                Each of these includes a div.callout element so you can see where the columns are - it's not required at all for the grid.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class='row'>
-          <div class='large-6 medium-6 columns'>
-            <div class='callout'>
-              <p>Six columns</p>
-            </div>
-          </div>
-          <div class='large-6 medium-6 columns'>
-            <div class='callout'>
-              <p>Six columns</p>
-            </div>
-          </div>
-        </div>
-        <div class='row'>
-          <div class='large-4 medium-4 small-4 columns'>
-            <div class='callout'>
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class='large-4 medium-4 small-4 columns'>
-            <div class='callout'>
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class='large-4 medium-4 small-4 columns'>
-            <div class='callout'>
-              <p>Four columns</p>
-            </div>
-          </div>
-        </div>
+    <footer class='row'>
+      <div class='large-12 columns'>
         <hr>
-        <h5>We bet you’ll need a form somewhere:</h5>
-        <form>
-          <div class='row'>
-            <div class='large-12 columns'>
-              <label>Input Label</label>
-              <input placeholder='large-12.columns' type='text'>
-            </div>
+        <div class='row'>
+          <div class='large-6 columns'>
+            <p>© Copyright no one at all. Go to town.</p>
           </div>
-          <div class='row'>
-            <div class='large-4 medium-4 columns'>
-              <label>Input Label</label>
-              <input placeholder='large-4.columns' type='text'>
-            </div>
-            <div class='large-4 medium-4 columns'>
-              <label>Input Label</label>
-              <input placeholder='large-4.columns' type='text'>
-            </div>
-            <div class='large-4 medium-4 columns'>
-              <label>Input Label</label>
-              <div class='input-group'>
-                <input class='input-group-field' placeholder='small-9.columns' type='text'>
-                <span class='input-group-label'>.com</span>
-              </div>
-            </div>
+          <div class='large-6 columns'>
+            <ul class='menu medium-horizontal'>
+              <li>
+                <a href='#'>Link 1</a>
+              </li>
+              <li>
+                <a href='#'>Link 2</a>
+              </li>
+              <li>
+                <a href='#'>Link 3</a>
+              </li>
+              <li>
+                <a href='#'>Link 4</a>
+              </li>
+            </ul>
           </div>
-          <div class='row'>
-            <div class='large-12 columns'>
-              <label>Select Box</label>
-              <select>
-                <option value='husker'>Husker</option>
-                <option value='starbuck'>Starbuck</option>
-                <option value='hotdog'>Hot Dog</option>
-                <option value='apollo'>Apollo</option>
-              </select>
-            </div>
-          </div>
-          <div class='row'>
-            <div class='large-6 medium-6 columns'>
-              <label>Choose Your Favorite</label>
-              <input id='pokemonRed' name='pokemon' type='radio' value='Red'>
-              <label for='pokemonRed'>Radio 1</label>
-              <input id='pokemonBlue' name='pokemon' type='radio' value='Blue'>
-              <label for='pokemonBlue'>Radio 2</label>
-            </div>
-            <div class='large-6 medium-6 columns'>
-              <label>Check these out</label>
-              <input id='checkbox1' type='checkbox'>
-              <label for='checkbox1'>Checkbox 1</label>
-              <input id='checkbox2' type='checkbox'>
-              <label for='checkbox2'>Checkbox 2</label>
-            </div>
-          </div>
-          <div class='row'>
-            <div class='large-12 columns'>
-              <label>Textarea Label</label>
-              <textarea placeholder='small-12.columns'></textarea>
-            </div>
-          </div>
-        </form>
-      </div>
-      <div class='large-4 medium-4 columns'>
-        <h5>Try one of these buttons:</h5>
-        <p>
-          <a class='small button' href='#'>Simple Button</a>
-          <br>
-          <a class='medium success button' href='#'>Success Button</a>
-          <br>
-          <a class='medium alert button' href='#'>Alert Button</a>
-          <br>
-          <a class='medium secondary button' href='#'>Secondary Button</a>
-        </p>
-        <div class='callout'>
-          <h5>So many components, girl!</h5>
-          <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-          <a class='small button' href='http://foundation.zurb.com/docs/'>Go to Foundation Docs</a>
         </div>
       </div>
-    </div>
+    </footer>
     <script src="/javascripts/all.js"></script>
   </body>
 </html>
