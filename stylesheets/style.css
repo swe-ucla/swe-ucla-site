@@ -2067,29 +2067,63 @@ table.hover tr:nth-of-type(even):hover { background-color: #ececec; }
 /* line 148, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/bower_components/foundation-sites/scss/util/_mixins.scss */
 .clearfix::after { clear: both; }
 
-/* line 1, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/stylesheets/_base.scss */
-.header { margin-top: -91px; width: 100%; }
+/** VARIABLES **/
+/* line 21, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/stylesheets/_base.scss */
+.margin-bottom-xs { margin-bottom: 0.5em !important; }
 
-/* line 5, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/stylesheets/_nav.scss */
+/* line 22, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/stylesheets/_base.scss */
+.margin-bottom-s { margin-bottom: 1em !important; }
+
+/* line 23, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/stylesheets/_base.scss */
+.margin-bottom-m { margin-bottom: 2em !important; }
+
+/* line 26, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/stylesheets/_base.scss */
+body { color: #332C2D; font-family: 'Open Sans', sans-serif; }
+
+/* line 30, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/stylesheets/_base.scss */
+h1 { color: #584A6A; font-family: 'Montserrat', sans-serif; }
+
+/* line 34, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/stylesheets/_base.scss */
+h4 { color: #4497CB; font-family: 'Open Sans', sans-serif; font-weight: 300; }
+
+/* line 42, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/stylesheets/_base.scss */
+.img-panel .large-4.columns { display: -ms-flexbox; display: flex; max-height: 300px; max-width: 300px; }
+/* line 46, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/stylesheets/_base.scss */
+.img-panel .large-4.columns img { margin: auto; }
+
+/* line 56, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/stylesheets/_base.scss */
+.header { margin-top: -100px; width: 100%; }
+
+/* line 6, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/stylesheets/_nav.scss */
 .logo-small { float: right; max-height: 40px; max-width: 100px; }
 
-/* line 11, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/stylesheets/_nav.scss */
+/* line 12, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/stylesheets/_nav.scss */
 .title-bar { padding: 0.5rem; }
 
-/* line 15, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/stylesheets/_nav.scss */
+/* line 16, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/stylesheets/_nav.scss */
 .menu-icon, .title-bar-title { position: relative; top: 10px; }
 
-@media only screen and (min-width: 40rem) { /* line 24, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/stylesheets/_nav.scss */
+@media only screen and (min-width: 40rem) { /* line 25, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/stylesheets/_nav.scss */
   .logo-wrapper { position: relative; }
-  /* line 27, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/stylesheets/_nav.scss */
-  .logo-wrapper .logo { max-height: 40px; max-width: 175px; float: left; }
-  /* line 35, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/stylesheets/_nav.scss */
-  .top-bar { display: -ms-flexbox; display: flex; -ms-flex-flow: row wrap; flex-flow: row wrap; -ms-flex-pack: center; justify-content: center; position: relative; z-index: 1000; background: rgba(54, 25, 25, 0); }
-  /* line 46, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/stylesheets/_nav.scss */
-  .top-bar .top-bar-left ul { background-color: rgba(54, 25, 25, 0); }
-  /* line 51, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/stylesheets/_nav.scss */
-  .top-bar .top-bar-left li { padding: 10px; }
-  /* line 54, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/stylesheets/_nav.scss */
-  .top-bar .top-bar-left li .submenu li { background-color: rgba(54, 25, 25, 0.5); padding: 0px; }
-  /* line 62, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/stylesheets/_nav.scss */
-  .top-bar .top-bar-left a { color: #fff; } }
+  /* line 28, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/stylesheets/_nav.scss */
+  .logo-wrapper .logo { margin-right: 1.5em; max-height: 75px; max-width: 200px; float: left; }
+  /* line 38, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/stylesheets/_nav.scss */
+  .dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a::after { border-color: white transparent transparent; }
+  /* line 43, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/stylesheets/_nav.scss */
+  .top-bar { display: -ms-flexbox; display: flex; -ms-flex-flow: row wrap; flex-flow: row wrap; -ms-flex-pack: center; justify-content: center; -ms-flex-align: baseline; align-items: baseline; position: relative; z-index: 1000; background: transparent; }
+  /* line 53, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/stylesheets/_nav.scss */
+  .top-bar .top-bar-left { /* DROP DOWN */ }
+  /* line 56, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/stylesheets/_nav.scss */
+  .top-bar .top-bar-left a { color: #fff; }
+  /* line 61, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/stylesheets/_nav.scss */
+  .top-bar .top-bar-left ul { background-color: transparent; }
+  /* line 67, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/stylesheets/_nav.scss */
+  .top-bar .top-bar-left .is-dropdown-submenu { border: 0px; }
+  /* line 73, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/stylesheets/_nav.scss */
+  .top-bar .top-bar-left li { /* DROP DOWN SUBMENU */ }
+  /* line 76, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/stylesheets/_nav.scss */
+  .top-bar .top-bar-left li a:hover { background: rgba(88, 74, 106, 0.5); border-radius: 15px; }
+  /* line 85, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/stylesheets/_nav.scss */
+  .top-bar .top-bar-left li .submenu li a { margin-bottom: 0.1em; padding: 0.3em 1em 0.3em 1em; }
+  /* line 90, /Users/bnery/OneDrive/PersonalDev/swe-ucla-website/source/stylesheets/_nav.scss */
+  .top-bar .top-bar-left li .submenu li a:hover { background: #fff; color: #000; } }
