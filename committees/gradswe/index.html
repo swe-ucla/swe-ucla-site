@@ -141,10 +141,9 @@
     <script src="../../javascripts/foundation.min.js"></script>
     <script src="../../javascripts/skrollr.min.js"></script>
     <script src="../../javascripts/modernizr.js"></script>
-    <script src="../../javascripts/script.js"></script>
     <script type='text/javascript'>
       $(document).foundation();
-      $(document).ready(function(){skrollr.init();if (s.isMobile()) {s.destroy();}});
+      $(document).ready(function(){if ($(window).width() > 767) {skrollr.init()}});
     </script>
   </body>
 </html>
