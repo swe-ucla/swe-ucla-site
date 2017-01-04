@@ -116,40 +116,24 @@
         </div>
       </div>
     </div>
-    <footer class='row'>
-      <div class='large-12 columns'>
-        <hr>
-        <div class='row'>
-          <div class='large-6 columns'>
-            <p>© Society of Women Engineers at UCLA, 2016</p>
-          </div>
-          <div class='large-6 columns'>
-            <ul class='menu medium-horizontal align-right simple'>
-              <li>
-                <a href='http://www.slideshare.net/sweucla' title='Slideshare'>
-                  <i aria-hidden='true' class='fa fa-slideshare fa-2x'></i>
-                </a>
-              </li>
-              <li>
-                <a href='https://twitter.com/swe_ucla' title='Twitter'>
-                  <i aria-hidden='true' class='fa fa-twitter-square fa-2x'></i>
-                </a>
-              </li>
-              <li>
-                <a href='https://www.instagram.com/swe_ucla/' title='Instagram'>
-                  <i aria-hidden='true' class='fa fa-instagram fa-2x'></i>
-                </a>
-              </li>
-              <li>
-                <a href='https://www.facebook.com/uclaswe' title='Facebook'>
-                  <i aria-hidden='true' class='fa fa-facebook-square fa-2x'></i>
-                </a>
-              </li>
-              <li class='menu-text'>
-                Check us out on social media:
-              </li>
-            </ul>
-          </div>
+    <footer class='footer'>
+      <div class='row'>
+        <div class='small-12 columns'>
+          <p class='slogan'>Check us out on social media!</p>
+          <p class='links'>
+            <a href='http://www.slideshare.net/sweucla' title='Slideshare'>
+              <i aria-hidden='true' class='fa fa-slideshare fa-2x'></i>
+            </a>
+            <a href='https://twitter.com/swe_ucla' title='Twitter'>
+              <i aria-hidden='true' class='fa fa-twitter-square fa-2x'></i>
+            </a>
+            <a href='https://www.instagram.com/swe_ucla/' title='Instagram'>
+              <i aria-hidden='true' class='fa fa-instagram fa-2x'></i>
+            </a>
+            <a href='https://www.facebook.com/uclaswe' title='Facebook'>
+              <i aria-hidden='true' class='fa fa-facebook-square fa-2x'></i>
+            </a>
+          </p>
         </div>
       </div>
     </footer>
@@ -160,7 +144,7 @@
     <script src="../../javascripts/script.js"></script>
     <script type='text/javascript'>
       $(document).foundation();
-      $(document).ready(function(){skrollr.init();});
+      $(document).ready(function(){skrollr.init();if (s.isMobile()) {s.destroy();}});
     </script>
   </body>
 </html>
