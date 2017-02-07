@@ -6,15 +6,15 @@
     <meta content='ie=edge' http-equiv='x-ua-compatible'>
     <meta content='width=device-width, initial-scale=1.0' name='viewport'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300,400' rel='stylesheet'>
-    <title></title>
+    <title>EWI</title>
     <link href="../../stylesheets/style.css" rel="stylesheet" />
     <script src='https://use.fontawesome.com/ddf1e2e3e6.js'></script>
   </head>
   <body class='events events_ewi events_ewi_index'>
-    <header style='background: ;'>
-      <div class='splash' data-375='background-position: 50% -100px; opacity:0' data-top='background-position: 50% 0px; opacity:1;' style='background-image:url();'>
+    <header style='background: #584A6A;'>
+      <div class='splash' data-375='background-position: 50% -100px; opacity:0' data-top='background-position: 50% 0px; opacity:1;' style='background-image:url(../../images/gear-overlay.png);'>
         <p class='splash-text'>
-          
+          <br> Evening With Industry
         </p>
       </div>
     </header>
@@ -99,7 +99,58 @@
     <div class='container row'>
       <div class='large-12 columns'>
         <div class='main'>
-          
+          <div class='row' data-equalize-on='767px' data-equalizer=''>
+            <div class='large-6 columns content-img' data-equalizer-watch=''>
+              <img src="../../images/ewi/ewi_photo_1.jpg" alt="Ewi photo 1" />
+            </div>
+            <div class='large-6 columns' data-equalizer-watch=''>
+              <p>
+                Evening with Industry (EWI) is the largest student-run networking event for UCLA's School of Engineering, hosted exclusively by SWE during the Winter quarter. It boasts an attendance of over 35 companies and 250 students annually. Company representatives and students alike enjoy the unique networking style this event provides - the night begins with networking over appetizers, after which students enjoy connecting over a 3-course meal with representatives from a company they are interested in. The night then ends with a private career fair where companies can get connected with the other 200 students. Check out our <a href="https://www.facebook.com/ucla.swe.ewi/">facebook page</a> for the latest updates on this years EWI.
+              </p>
+            </div>
+          </div>
+          <div class='content-panel row' data-equalize-on='767px' data-equalizer=''>
+            <div class='large-4 columns' data-equalizer-watch=''>
+              <img src="../../images/ewi/ewi_logo.png" alt="Ewi logo" />
+            </div>
+            <div class='large-8 columns' data-equalizer-watch=''>
+              <h2>
+                Evening with Industry 2017
+              </h2>
+              <h3>
+                Thursday, February 2nd
+                <br>
+                Carnesale Commons
+              </h3>
+              <h5>How to Purchase Tickets:</h5>
+              <ul>
+                <li>
+                  Register <a href="https://sweewi.typeform.com/to/Cs2EOQ">here</a>
+                </li>
+                <li>
+                  Purchase your tickets at EWI table located at the corridor outside SEAS Cafe (5th floor Boelter Hall).
+                  <b>CASH ONLY.</b>
+                </li>
+              </ul>
+              Ticket sales begin the first week of winter quarter and increase every week! Ticket prices are the following each week:
+              <br>(pricing - SWE Member/Non-SWE Member)</br>
+              <br>
+              <b>Week 1:</b>
+              $10/$15
+              <br>
+              <b>Week 2:</b>
+              $15/$20
+              <br>
+              <b>Week 3:</b>
+              $20/$25
+            </div>
+          </div>
+          <div class='row'>
+            <div class='large-12 columns'>
+              <h1>Attending Companies</h1>
+              <iframe id='companies' src='https://docs.google.com/document/d/1_TLG69fJoCnZh2NK4srgMcErloqD86i1H0JyUPX2b8k/pub?embedded=true'></iframe>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -126,11 +177,12 @@
     </footer>
     <script src="../../javascripts/jquery.min.js"></script>
     <script src="../../javascripts/foundation.min.js"></script>
+    <script src="../../javascripts/foundation.equalizer.js"></script>
     <script src="../../javascripts/skrollr.min.js"></script>
     <script src="../../javascripts/modernizr.js"></script>
-    <script type='text/javascript'>
+    <script src="../../javascripts/script.js"></script>
+    <script>
       $(document).foundation();
-      $(document).ready(function(){if ($(window).width() > 767) {skrollr.init()}});
     </script>
   </body>
 </html>

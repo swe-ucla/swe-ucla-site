@@ -2101,52 +2101,64 @@ h5 { color: #E57D3C; }
 /* line 57, _base.scss */
 .button:hover { background-color: #dcc554; }
 
-/* line 64, _base.scss */
+/* line 61, _base.scss */
+.left { float: left; }
+
+/* line 65, _base.scss */
+.right { float: right; }
+
+/* line 72, _base.scss */
 .splash { background-size: cover; background-position: center center; background-repeat: no-repeat; background-attachment: fixed; color: white; text-align: center; padding: 5% 0 15% 0; }
 
-/* line 74, _base.scss */
+/* line 82, _base.scss */
 .splash-text { font-family: 'Montserrat', sans-serif; font-weight: bold; text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3); font-size: 2rem; }
 
-/* line 82, _base.scss */
+/* line 90, _base.scss */
 .main { background: white; padding: 5% 5% 5%; }
 
-/* line 89, _base.scss */
+/* line 96, _base.scss */
+.content-img img { padding: 1em; }
+
+/* line 101, _base.scss */
 .content-panel { background: #fff; padding: 1.75rem; margin-top: 2.5rem; margin-bottom: 2.5rem; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
 
-/* line 97, _base.scss */
+/* line 109, _base.scss */
 .profile-card { padding: 1rem; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); margin: 2rem 0; background-color: #fff; }
 
-/* line 104, _base.scss */
+/* line 116, _base.scss */
 .profile-card-img { position: relative; float: left; width: 280px; height: 300px; background-position: 50% 50%; background-repeat: no-repeat; background-size: cover; margin-bottom: 1rem; }
 
-/* line 115, _base.scss */
+/* line 127, _base.scss */
 .profile-info { padding: 0 2rem 0 2rem; }
-/* line 117, _base.scss */
+/* line 129, _base.scss */
 .profile-info h3 { margin-top: 0; }
 
-/* line 122, _base.scss */
+/* line 134, _base.scss */
 span.tag { color: #E57D3C; font-family: 'Montserrat', sans-serif; }
 
-/* line 127, _base.scss */
+/* line 139, _base.scss */
 .events ul, .events li { position: relative; padding: 0; margin: 0; list-style: none; }
 
-/* line 134, _base.scss */
+/* line 146, _base.scss */
 .events ul { padding: 1em; }
 
-/* line 137, _base.scss */
+/* line 149, _base.scss */
 .events li:before { content: '\f013'; font-family: 'FontAwesome'; float: left; margin-left: -1.5em; color: #dcc554; }
 
-@media only screen and (min-width: 767px) { /* line 147, _base.scss */
+/* line 157, _base.scss */
+#companies { width: 100%; height: 800px; border-style: none; }
+
+@media only screen and (min-width: 767px) { /* line 163, _base.scss */
   body { font-size: 1.2rem; }
-  /* line 150, _base.scss */
+  /* line 166, _base.scss */
   .splash-text { font-size: 3.5rem; }
-  /* line 154, _base.scss */
+  /* line 170, _base.scss */
   .h1 { font-size: 3rem; }
-  /* line 157, _base.scss */
+  /* line 173, _base.scss */
   .h2 { font-size: 2rem; }
-  /* line 161, _base.scss */
+  /* line 177, _base.scss */
   .profile-info { padding: 0 2rem 0 0; }
-  /* line 165, _base.scss */
+  /* line 181, _base.scss */
   .profile-card-img { margin-bottom: 0; } }
 /* line 8, _nav.scss */
 .logo-small { float: right; max-height: 40px; max-width: 100px; }
