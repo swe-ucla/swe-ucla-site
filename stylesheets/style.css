@@ -2068,97 +2068,140 @@ table.hover tr:nth-of-type(even):hover { background-color: #ececec; }
 .clearfix::after { clear: both; }
 
 /** VARIABLES **/
-/* line 22, _base.scss */
+/* line 25, _base.scss */
 .margin-bottom-xs { margin-bottom: 0.5em !important; }
 
-/* line 23, _base.scss */
+/* line 26, _base.scss */
 .margin-bottom-s { margin-bottom: 1em !important; }
 
-/* line 24, _base.scss */
+/* line 27, _base.scss */
 .margin-bottom-m { margin-bottom: 2em !important; }
 
-/* line 27, _base.scss */
+/* line 30, _base.scss */
 body { color: #332C2D; font-family: 'Open Sans', sans-serif; font-size: 1rem; background: url(../images/gear-bg.png) top left repeat; }
 
-/* line 34, _base.scss */
+/* line 37, _base.scss */
 a:hover { color: #dcc554; }
 
-/* line 37, _base.scss */
+/* line 40, _base.scss */
 .bold { font-weight: bold; }
 
-/* line 40, _base.scss */
+/* line 43, _base.scss */
 h1, h3 { color: #584A6A; font-family: 'Montserrat', sans-serif; }
 
-/* line 44, _base.scss */
+/* line 47, _base.scss */
 h2, h4 { color: #4497CB; font-family: 'Montserrat', sans-serif; }
 
-/* line 48, _base.scss */
+/* line 51, _base.scss */
 h5 { color: #E57D3C; }
 
-/* line 52, _base.scss */
+/* line 54, _base.scss */
+h6 { color: #584A6A; }
+
+/* line 58, _base.scss */
 .button { background-color: #4497CB; font-family: 'Montserrat', sans-serif; }
 
-/* line 57, _base.scss */
+/* line 63, _base.scss */
 .button:hover { background-color: #dcc554; }
 
-/* line 61, _base.scss */
+/* line 67, _base.scss */
 .left { float: left; }
 
-/* line 65, _base.scss */
+/* line 71, _base.scss */
 .right { float: right; }
 
-/* line 72, _base.scss */
+/* line 75, _base.scss */
+.center-text { text-align: center; }
+
+/* line 80, _base.scss */
 .splash { background-size: cover; background-position: center center; background-repeat: no-repeat; background-attachment: fixed; color: white; text-align: center; padding: 5% 0 15% 0; }
 
-/* line 82, _base.scss */
+/* line 90, _base.scss */
 .splash-text { font-family: 'Montserrat', sans-serif; font-weight: bold; text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3); font-size: 2rem; }
 
-/* line 90, _base.scss */
+/* line 98, _base.scss */
 .main { background: white; padding: 5% 5% 5%; }
 
-/* line 96, _base.scss */
+/* line 104, _base.scss */
 .content-img img { padding: 1em; }
 
-/* line 101, _base.scss */
+/* line 109, _base.scss */
 .content-panel { background: #fff; padding: 1.75rem; margin-top: 2.5rem; margin-bottom: 2.5rem; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
 
-/* line 109, _base.scss */
+/* line 117, _base.scss */
 .profile-card { padding: 1rem; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); margin: 2rem 0; background-color: #fff; }
 
-/* line 116, _base.scss */
-.profile-card-img { position: relative; float: left; width: 280px; height: 300px; background-position: 50% 50%; background-repeat: no-repeat; background-size: cover; margin-bottom: 1rem; }
+/* line 124, _base.scss */
+.profile-card-img { position: relative; float: left; width: 300px; height: 450px; background-position: 50% 50%; background-repeat: no-repeat; background-size: cover; margin-bottom: 1rem; }
 
-/* line 127, _base.scss */
+/* line 135, _base.scss */
 .profile-info { padding: 0 2rem 0 2rem; }
-/* line 129, _base.scss */
+/* line 137, _base.scss */
 .profile-info h3 { margin-top: 0; }
 
-/* line 134, _base.scss */
+/* line 142, _base.scss */
 span.tag { color: #E57D3C; font-family: 'Montserrat', sans-serif; }
 
-/* line 139, _base.scss */
+/* line 147, _base.scss */
 .events ul, .events li { position: relative; padding: 0; margin: 0; list-style: none; }
 
-/* line 146, _base.scss */
+/* line 154, _base.scss */
 .events ul { padding: 1em; }
 
-/* line 149, _base.scss */
+/* line 157, _base.scss */
 .events li:before { content: '\f013'; font-family: 'FontAwesome'; float: left; margin-left: -1.5em; color: #dcc554; }
 
-/* line 157, _base.scss */
+/* line 165, _base.scss */
 #companies { width: 100%; height: 800px; border-style: none; }
 
-@media only screen and (min-width: 767px) { /* line 163, _base.scss */
+/* line 172, _base.scss */
+.contact-card { padding: 1rem; margin: 2rem 0; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); background-color: #fff; }
+/* line 178, _base.scss */
+.contact-card .contact-card-img { width: 150px; height: 150px; border-radius: 50%; box-shadow: 2px 2px 5px #888888; background-position: 50% 50%; background-repeat: no-repeat; background-size: cover; margin: 2rem auto; }
+/* line 189, _base.scss */
+.contact-card .contact-info h4, .contact-card .contact-info h5, .contact-card .contact-info h6 { margin-top: 0; text-align: center; text-transform: uppercase; }
+/* line 194, _base.scss */
+.contact-card .contact-info p { text-align: center; font-size: 1rem; }
+
+/* line 202, _base.scss */
+.sponsor { text-align: center; padding: 2rem; }
+/* line 206, _base.scss */
+.sponsor .sponsor-image { display: inline-block; }
+/* line 208, _base.scss */
+.sponsor .sponsor-image img { padding: 0.5rem; max-height: 200px; max-width: 200px; }
+
+/* line 216, _base.scss */
+.diamond h1 { color: #00b3dc; }
+
+/* line 219, _base.scss */
+.platinum h1 { color: #3c3a36; }
+
+/* line 222, _base.scss */
+.gold h1 { color: #d9b950; }
+
+/* line 225, _base.scss */
+.silver h1 { color: #c0c0c0; }
+
+/* line 228, _base.scss */
+.bronze h1 { color: #cd7f32; }
+
+/* line 232, _base.scss */
+.committee-photo { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; text-align: center; }
+
+/* line 238, _base.scss */
+.committee-photo-img { height: 60%; width: 60%; padding: 1rem; }
+
+@media only screen and (min-width: 767px) { /* line 245, _base.scss */
   body { font-size: 1.2rem; }
-  /* line 166, _base.scss */
+  /* line 248, _base.scss */
   .splash-text { font-size: 3.5rem; }
-  /* line 170, _base.scss */
+  /* line 252, _base.scss */
   .h1 { font-size: 3rem; }
-  /* line 173, _base.scss */
+  /* line 255, _base.scss */
   .h2 { font-size: 2rem; }
-  /* line 177, _base.scss */
+  /* line 259, _base.scss */
   .profile-info { padding: 0 2rem 0 0; }
-  /* line 181, _base.scss */
+  /* line 263, _base.scss */
   .profile-card-img { margin-bottom: 0; } }
 /* line 8, _nav.scss */
 .logo-small { float: right; max-height: 40px; max-width: 100px; }
@@ -2169,31 +2212,33 @@ span.tag { color: #E57D3C; font-family: 'Montserrat', sans-serif; }
 /* line 20, _nav.scss */
 .menu-icon, .title-bar-title { position: relative; top: 10px; }
 
-@media only screen and (min-width: 40rem) { /* line 29, _nav.scss */
+@media only screen and (min-width: 40rem) { /* line 30, _nav.scss */
   .nav-wrapper { position: relative; width: 100%; height: 150px; }
-  /* line 35, _nav.scss */
+  /* line 36, _nav.scss */
   .logo-wrapper { position: relative; }
-  /* line 38, _nav.scss */
+  /* line 39, _nav.scss */
   .logo-wrapper .logo { max-width: 200px; }
-  /* line 45, _nav.scss */
+  /* line 46, _nav.scss */
   .dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a::after { border-color: #584A6A transparent transparent; }
-  /* line 50, _nav.scss */
+  /* line 51, _nav.scss */
   .top-bar { display: -ms-flexbox; display: flex; -ms-flex-flow: row wrap; flex-flow: row wrap; -ms-flex-pack: justify; justify-content: space-between; -ms-flex-align: center; align-items: center; position: relative; padding: 1em; z-index: 1000; background: #F3F2F6; font-family: 'Montserrat', sans-serif; }
-  /* line 62, _nav.scss */
+  /* line 63, _nav.scss */
   .top-bar .top-bar-left { /* DROP DOWN */ }
-  /* line 65, _nav.scss */
+  /* line 66, _nav.scss */
   .top-bar .top-bar-left a { font-size: 1.2rem; color: #5b5478; }
-  /* line 71, _nav.scss */
-  .top-bar .top-bar-left ul { background-color: #F3F2F6; }
-  /* line 77, _nav.scss */
+  /* line 72, _nav.scss */
+  .top-bar .top-bar-left ul { background-color: #F3F2F6; list-style: none; }
+  /* line 79, _nav.scss */
   .top-bar .top-bar-left .is-dropdown-submenu { border: 0px; }
-  /* line 83, _nav.scss */
-  .top-bar .top-bar-left li { /* DROP DOWN SUBMENU */ }
-  /* line 86, _nav.scss */
+  /* line 85, _nav.scss */
+  .top-bar .top-bar-left li { list-style: none; /* DROP DOWN SUBMENU */ }
+  /* line 88, _nav.scss */
   .top-bar .top-bar-left li a:hover { background: #dcc554; color: #fff; }
   /* line 96, _nav.scss */
+  .top-bar .top-bar-left li .submenu li { list-style: none; }
+  /* line 98, _nav.scss */
   .top-bar .top-bar-left li .submenu li a { font-size: 1rem; margin-bottom: 0.1em; padding: 0.3em 1em 0.3em 1em; }
-  /* line 102, _nav.scss */
+  /* line 104, _nav.scss */
   .top-bar .top-bar-left li .submenu li a:hover { background: #dcc554; color: #fff; } }
 /* line 1, _footer.scss */
 .footer { background-color: #584A6A; text-align: center; padding: 1.5rem; color: white; }
