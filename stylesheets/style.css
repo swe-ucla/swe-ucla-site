@@ -2078,7 +2078,7 @@ table.hover tr:nth-of-type(even):hover { background-color: #ececec; }
 .margin-bottom-m { margin-bottom: 2em !important; }
 
 /* line 30, _base.scss */
-body { color: #332C2D; font-family: 'Open Sans', sans-serif; font-size: 1rem; background: url(/images/gear-bg.png) top left repeat; }
+body { color: #332C2D; font-family: 'Open Sans', sans-serif; font-size: 1rem; background: url(../images/gear-bg.png) top left repeat; }
 
 /* line 37, _base.scss */
 a:hover { color: #dcc554; }
